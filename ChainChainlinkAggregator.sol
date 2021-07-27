@@ -17,7 +17,6 @@ contract ChainChainlinkAggregator is IChainlinkAggregator {
     address internal priceFeedAddress2;
     IChainlinkAggregator internal priceFeed1;
     IChainlinkAggregator internal priceFeed2;
-    IChainlinkAggregator internal priceFeedControl;
 
     /**
      * 
