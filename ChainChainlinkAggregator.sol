@@ -44,7 +44,7 @@ contract ChainChainlinkAggregator is IChainlinkAggregator {
         return priceFeedAddress2;
     }
     /**
-     * Converts DAI price to ETH using two feeds and returns 18 decimal point precision
+     * Converts asset A price to asset C price using two feeds and returns 18 decimal point precision
      */
     function latestAnswer() public view virtual override returns (int) {
         int price1 = getPrice1();
